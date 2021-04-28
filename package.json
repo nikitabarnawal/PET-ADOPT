@@ -21,7 +21,7 @@
     "prettier": "^2.2.1"
   },
   "lint-staged": {
-    "src/**/*.{js,jsx}": "eslint . --fix"
+    "src/**/*.{js,jsx}": "prettier  --write"
   },
   "husky": {
     "hooks": {

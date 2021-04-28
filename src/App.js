@@ -1,5 +1,5 @@
-import React from 'react';
-import { render } from 'react-dom';
+import React from "react";
+import { render } from "react-dom";
 
 const Pet = ({ name, animal, breed }) => {
   return React.createElement("div", {}, [
@@ -14,15 +14,15 @@ const a = 5;
 const b = 6;
 
 const App = () => {
-  return React.createElement("div", {}, [
+    return React.createElement("div", {}, [
     React.createElement("h1", { id: "something-important" }, "Adopt Me"),
-    React.createElement(Pet, {
+   React.createElement(Pet, {
       name: "Luna",
       animal: "Dog",
       breed: "Havanese",
     }),
     React.createElement(Pet, {
-      name: "Pepper",
+        name: "Pepper",
       animal: "Bird",
       breed: "Cocktail",
     }),
