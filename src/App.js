@@ -8,6 +8,7 @@ const Pet = ({ name, animal, breed }) => {
 
 const x = 5;
 const a = 5;
+const b = 6;
 
 const App = () => {
   return React.createElement("div", {}, [
